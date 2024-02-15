@@ -1,0 +1,53 @@
+.container {
+    position: relative;
+    display: flex;
+    justify-content: right;
+}
+
+.film {
+
+    &__list {
+        position: absolute;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 36px;
+        top: 294px;
+        right: 517px;
+        margin-bottom: 95px;
+        
+        &__item {
+            display: flex;
+        }
+    }
+
+    &__title {
+        width: 576px;
+        height: 228px;
+    }
+
+    &__desc {
+        text-align: center;
+        font-weight: 500;
+        font-size: 40px;
+    }
+
+    &__watch {
+        width: 243px;
+        height: 80px;
+        padding: 24px 32px;
+        margin-right: 24px;
+        border-radius: 16px;
+        background: linear-gradient(90deg, #6a11cb, #2575fc 100%, #2575fc 0);
+    }
+
+    &__about {
+        width: 243px;
+        height: 80px;
+        padding: 24px 32px;
+        border-radius: 16px;
+        background: linear-gradient(180deg, hsla(0, 0%, 100%, .1), hsla(0, 0%, 100%, .13) 50%, hsla(0, 0%, 100%, .1));
+    }
+}
+

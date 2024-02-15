@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'TT Norms Pro';
+    src: url(../../fonts/TTNormsPro-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro';
+    src: url(../../fonts/TTNormsPro-Bold.ttf);
+    font-weight: 700;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::after, *::before  {
+    box-sizing: inherit;
+    font-family: 'TT Norms Pro', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+}
+
+p,
+b,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #fff;
+}
+
+button {
+    border: none;
+    background: transparent;
+    color: #fff;
+    font-weight: 500;
+    font-size: 30px;
+    cursor: pointer;
+}
